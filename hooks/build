@@ -1,0 +1,2 @@
+#!/bin/bash
+docker build --build-arg CUSTOM=abc -t $IMAGE_NAME .
